@@ -2,7 +2,7 @@
 
 ## Description
 We all know how annoying is to get a lot of Spam messages in our inbox.
-This project aims to help identifying those.
+This project aims to make a predictor for those and get the basics of a model deploying
 
 ## Overview
 * Dataset downloaded from [Kaggle](https://www.kaggle.com/uciml/sms-spam-collection-dataset) (aprox 5k sms message).
@@ -38,7 +38,10 @@ After that also tried to improve its performance by oversampling the data but th
 
 Created a simple flask app and modified some pre-existing html pages to deploy the final model on Heroku.
 
+Page link -> https://sms-detector.herokuapp.com/
 ![Web page on Heroku](imgs/heroku_page.png)
 
 
 
+![Prediction example](imgs/ham.png)
+![Prediction example](imgs/spam.png)
