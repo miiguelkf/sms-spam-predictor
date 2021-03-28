@@ -39,8 +39,9 @@ After that also tried to improve its performance by oversampling the data but th
 Created a simple flask app and modified some pre-existing html pages to deploy the final model on Heroku.
 
 Page link -> https://sms-detector.herokuapp.com/
-![Web page on Heroku](imgs/heroku_page.png)
 
+
+![Web page on Heroku](imgs/heroku_page.png)
 
 
 ![Prediction example](imgs/ham.png)
